@@ -9,7 +9,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://a945-84-54-86-238.ngrok-free.app",
+    "https://luxgilam-admin-production.up.railway.app",
     "http://127.0.0.1",
     "https://127.0.0.1",
 ]
