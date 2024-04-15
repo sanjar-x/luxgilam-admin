@@ -9,7 +9,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://luxgilam-admin-production.up.railway.app",
+    "https://django-server-production-8acc.up.railway.app",
     "http://127.0.0.1",
     "https://127.0.0.1",
 ]
