@@ -16,5 +16,5 @@ def validate_image_size(value):
 
 
 def validate_image(value):
-    FileExtensionValidator(allowed_extensions=['jpg', 'jpeg', 'png'])(value)
+    FileExtensionValidator(allowed_extensions=["jpg", "jpeg", "png"])(value)
     validate_image_size(value)
