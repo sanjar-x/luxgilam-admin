@@ -2,11 +2,15 @@ import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+STATIC_URL = "/static/"
+STATIC_ROOT = os.path.join(BASE_DIR, "/static/")
+
 SECRET_KEY = "django-insecure-4*aijcg5+aw644nlqbt*!gm##lbx#0c%ykcu&0pao@jpb5z#e4"
 
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+
 
 CSRF_TRUSTED_ORIGINS = [
     "https://django-server-production-8acc.up.railway.app",
@@ -88,8 +92,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-STATIC_URL = "/static/"
-STATIC_ROOT = os.path.join(BASE_DIR, "/static/")
 
 MEDIA_URL = "media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
